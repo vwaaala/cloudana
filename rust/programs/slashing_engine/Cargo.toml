@@ -1,0 +1,16 @@
+ 
+# This is the package manifest for the slashing_engine Anchor program.
+
+# TODO: Define the package name and dependencies.
+
+# [package]
+# name = "slashing_engine"
+# version = "0.1.0"
+# edition = "2021"
+
+# [dependencies]
+# anchor-lang = "0.29.0"
+
+# Optional:
+# Use anchor-spl if interacting with token accounts (rare in slashing context).
+# Add the staking_manager and job_escrow program IDs via CPI in lib.rs if needed.

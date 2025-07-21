@@ -1,0 +1,16 @@
+ 
+# This is the package manifest for the job_escrow Anchor program.
+
+# TODO: Define package name and dependencies.
+
+# [package]
+# name = "job_escrow"
+# version = "0.1.0"
+# edition = "2021"
+
+# [dependencies]
+# anchor-lang = "0.29.0"
+# anchor-spl = "0.29.0"    # Required for SPL token vault operations
+
+# Optional:
+# Use `bytemuck` or `serde` for hash serialization, if needed.

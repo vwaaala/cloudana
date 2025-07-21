@@ -1,0 +1,17 @@
+ 
+# This is the package manifest for the staking_manager Anchor program.
+
+# TODO: Define the package name and dependencies.
+# This program uses anchor-lang for Solana smart contract development.
+
+# [package]
+# name = "staking_manager"
+# version = "0.1.0"
+# edition = "2021"
+
+# [dependencies]
+# anchor-lang = "0.29.0"
+
+# Optional:
+# Add anchor-spl if staking ever involves SPL tokens beyond native CLD logic.
+# anchor-spl = "0.29.0"

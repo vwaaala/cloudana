@@ -1,0 +1,17 @@
+ 
+# This is the package manifest for the worker_registry Anchor program.
+
+# TODO: Define the package name and Anchor dependencies.
+# This program uses anchor-lang for macros and Solana integration.
+
+# [package]
+# name = "worker_registry"
+# version = "0.1.0"
+# edition = "2021"
+
+# [dependencies]
+# anchor-lang = "0.29.0"
+
+# Optional:
+# Add anchor-spl if SPL token interaction (e.g., reputation token mint) is needed later.
+# anchor-spl = "0.29.0"

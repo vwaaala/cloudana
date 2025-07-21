@@ -1,0 +1,16 @@
+ 
+# This is the package manifest for the governance_dao Anchor program.
+
+# TODO: Define package name and dependencies.
+
+# [package]
+# name = "governance_dao"
+# version = "0.1.0"
+# edition = "2021"
+
+# [dependencies]
+# anchor-lang = "0.29.0"
+
+# Optional:
+# Add anchor-spl for token access if voting stake must be verified via SPL
+# anchor-spl = "0.29.0"

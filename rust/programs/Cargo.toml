@@ -1,0 +1,27 @@
+# This is the Cargo workspace manifest for all Solana Anchor programs.
+
+# TODO: Define the workspace members.
+# Each subdirectory (one per program) must be listed under [workspace] > members.
+# These correspond to Anchor programs:
+# - worker_registry
+# - staking_manager
+# - job_escrow
+# - governance_dao
+# - slashing_engine
+
+# Example (uncomment and complete):
+# [workspace]
+# members = [
+#     "worker_registry",
+#     "staking_manager",
+#     "job_escrow",
+#     "governance_dao",
+#     "slashing_engine"
+# ]
+
+# Note: You do not declare [package] in a workspace-level Cargo.toml.
+# That is handled per-program in each individual subdirectory.
+
+# This file allows building all programs together via `cargo build` from the workspace root.
+
+# Make sure to also update Anchor.toml in the project root to define each program for deployment.
