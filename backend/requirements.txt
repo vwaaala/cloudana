@@ -1,0 +1,29 @@
+# requirements.txt
+# TODO: Dependencies for Cloudana FastAPI backend
+
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# === Async DB (PostgreSQL) ===
+sqlalchemy[asyncio]
+asyncpg
+alembic
+
+# === zkSNARK Verifier ===
+snarkjs-cli-wrapper  # or custom subprocess calls
+pycryptodome         # (if verifying zk manually)
+
+# === Redis Queue (optional) ===
+redis
+aioredis
+
+# === Solana Client ===
+solana
+anchorpy
+
+# === Dev Tools ===
+httpx
+pytest
+loguru
